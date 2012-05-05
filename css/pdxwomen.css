@@ -1,5 +1,10 @@
 /* PDX Women */
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab');
 
 /* Sorry, RocketTheme... */
 #rocket { display: none; }
 
+/* General */
+
+/* Logo */
+a#rt-logo { background: url('../images/logo/pwn.png'); height: 126px; width: 270px; }
