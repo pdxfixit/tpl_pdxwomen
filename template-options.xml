@@ -155,9 +155,9 @@
         </fields>
 
         <fields name="copyright" type="chain" label="COPYRIGHT">
-            <field name="enabled" type="toggle" default="1" label="SHOW"/>
+            <field name="enabled" type="toggle" default="0" label="SHOW"/>
             <field name="position" type="position" translation="false" default="copyright" label="POSITION"/>
-            <field name="text" type="text" default="Designed by RocketTheme" label="" class="text-long"/>
+            <field name="text" type="text" default="Copyright (c) 2012, PDX Women" label="" class="text-long"/>
         </fields>
 
         <fields name="smartload" type="chain" labeel="SMARTLOAD">
@@ -168,7 +168,7 @@
         </fields>
 
         <fields name="totop" type="chain" label="TOTOP">
-            <field name="enabled" type="toggle" default="1" label="SHOW"/>
+            <field name="enabled" type="toggle" default="0" label="SHOW"/>
             <field name="position" type="position" translation="false" default="copyright" label="POSITION"/>
             <field name="text" type="text" default="Scroll to Top" label="" class="text-long"/>
         </fields>
@@ -576,7 +576,7 @@
         <field name="advancedtips" type="tips" tab="advanced" panel_position="right" show_label="false"/>
 
         <fields name="cache" type="chain" label="GANTRY_CACHE" setinoverride="false">
-            <field name="enabled" type="toggle" default="1" label="ENABLED" setinoverride="false"/>
+            <field name="enabled" type="toggle" default="0" label="ENABLED" setinoverride="false"/>
             <field name="time" type="text" default="900" label="CACHE_TIME" class="text-short" setinoverride="false"/>
         </fields>
 
@@ -603,7 +603,7 @@
 
         <field name="buildspans-enabled" type="toggle" default="1" label="TITLESPANS"/>
 
-        <field name="pagesuffix-enabled" type="toggle" default="0" label="PAGESUFFIX"/>
+        <field name="pagesuffix-enabled" type="toggle" default="1" label="PAGESUFFIX"/>
 
         <fields name="inactive" type="chain" label="INACTIVE" setinoverride="false">
             <field name="enabled" type="toggle" default="1" label="ENABLED" setinoverride="false"/>
