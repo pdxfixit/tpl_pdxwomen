@@ -42,19 +42,19 @@
             <option value="style3">Style 3</option>
             <option value="style4">Style 4</option>
         </field>
-        <field name="bgcolor" type="colorchooser" default="#dddddd" label="BG_COLOR" setinsession="true"
+        <field name="bgcolor" type="colorchooser" default="transparent" label="BG_COLOR" setinsession="true"
                setbysession="true" setincookie="true" setbycookie="true"/>
 
-        <field name="headercolor" type="colorchooser" default="#111111" label="HEADER_COLOR" setinsession="true"
+        <field name="headercolor" type="colorchooser" default="transparent" label="HEADER_COLOR" setinsession="true"
                setbysession="true" setincookie="true" setbycookie="true"/>
 
-        <field name="bottomcolor" type="colorchooser" default="#111111" label="BOTTOM_COLOR" setinsession="true"
+        <field name="bottomcolor" type="colorchooser" default="transparent" label="BOTTOM_COLOR" setinsession="true"
                setbysession="true" setincookie="true" setbycookie="true"/>
 
-        <field name="footercolor" type="colorchooser" default="#666666" label="FOOTER_COLOR" setinsession="true"
+        <field name="footercolor" type="colorchooser" default="transparent" label="FOOTER_COLOR" setinsession="true"
                setbysession="true" setincookie="true" setbycookie="true"/>
 
-        <field name="linkcolor" type="colorchooser" default="#cc0000" label="LINK_COLOR" setinsession="true"
+        <field name="linkcolor" type="colorchooser" default="#744987" label="LINK_COLOR" setinsession="true"
                setbysession="true" setincookie="true" setbycookie="true"/>
 
         <fields name="webfonts" type="chain" label="WEBFONTS">
