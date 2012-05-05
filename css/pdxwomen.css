@@ -11,7 +11,7 @@
 #rocket { display: none; }
 
 /* General */
-
+body, p { font-family: 'Josefin Sans', sans-serif; font-size: 14 }
 
 /* Logo */
 a#rt-logo { background: url('../images/logo/pwn.png'); height: 126px; width: 270px; }
@@ -21,4 +21,20 @@ a#rt-logo { background: url('../images/logo/pwn.png'); height: 126px; width: 270
  */
  
  /* Header */
+ 
+/*
+ * Pages
+ */
+ 
+ /* Home */
+ body.menu-home { background: url('../images/body/home.jpg') center top no-repeat; }
+ 
+ /* Mission */
+ body.menu-home { background: url('../images/body/mission.jpg') center top no-repeat; }
+ 
+ /* Members */
+ body.menu-home { background: url('../images/body/members.jpg') center top no-repeat; }
+ 
+ /* Contact */
+ body.menu-home { background: url('../images/body/contact.jpg') center top no-repeat; }
  
