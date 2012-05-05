@@ -21,7 +21,7 @@ class JElementMenuJSInit extends JElement {
     function fetchElement($name, $value, &$node, $control_name) {
 	
 		$doc =& JFactory::getDocument();
-        $doc->addScript(JURI::Root(true)."/templates/rt_gantry/elements/childtype.js");
+        $doc->addScript(JURI::Root(true)."/templates/pdxwomen/elements/childtype.js");
 	
         return null;
     }

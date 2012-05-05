@@ -19,7 +19,7 @@
         <field name="master" type="hidden" value="false" default="true"/>
         <field name="current_id" type="hidden" value="false" default="true"/>
         <field name="gantry" type="gantry" value="" panel_position="hiddens"/>
-        <field name="template_full_name" type="hidden" default="Gantry Template"/>
+        <field name="template_full_name" type="hidden" default="PDX Women Template"/>
         <!--<field name="diagnostic" type="diagnostic" panel_position="right" show_label="false" />-->
         <!--<field name="overviewtips" type="tips" tab="overview" panel_position="right" show_label="false"/>-->
         <field name="grid_system" type="hidden" default="12"/>
